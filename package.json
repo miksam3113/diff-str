@@ -9,7 +9,17 @@
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20231218.0",
+    "@types/diff": "^5.0.9",
+    "@types/node": "^20.10.7",
+    "@types/uuid": "^9.0.7",
     "typescript": "^5.0.4",
     "wrangler": "^3.0.0"
+  },
+  "dependencies": {
+    "diff": "^5.1.0",
+    "diff2html": "^3.4.46",
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.0",
+    "uuid": "^9.0.1"
   }
 }
